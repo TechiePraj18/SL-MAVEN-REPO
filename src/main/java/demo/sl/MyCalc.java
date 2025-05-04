@@ -23,7 +23,7 @@ public class MyCalc {
 	}
 	public void greet()
 	{
-		System.out.println("Welcome to Jenkinsfile ");
+		System.out.println("Welcome Master Branch");
 	}
 
 

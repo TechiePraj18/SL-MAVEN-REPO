@@ -25,6 +25,10 @@ public class MyCalc {
 	{
 		System.out.println("Welcome Master Branch");
 	}
+	public void check()
+	{
+		System.out.println("Checked the pipeline");
+	}
 
 
 	public static void main(String[] args) {
@@ -37,6 +41,7 @@ public class MyCalc {
 		System.out.println("Div is : "+calc.div(20,10));
 		System.out.println("Mod is : "+calc.mod(20,10));
 		calc.greet();
+		calc.check();
 	}
 
 }
